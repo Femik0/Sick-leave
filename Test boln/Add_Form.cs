@@ -25,24 +25,24 @@ namespace Test_boln
         {
             dataBase.openConnection();
 
-            var SL = textBox_SL2.Text;
-            var Kor = textBox_Kor2.Text;
-            var Uh = textBox_Uh2.Text;
-            var Date = textBox_Date2.Text;
-            int Bol;
+            var AddService = textBox_AddService.Text;
+            var AddCoronavirus = textBox_AddCoronavirus.Text;
+            var AddCare = textBox_AddСare.Text;
+            DateTime AddDate;
+            int AddSick;
 
-            if (int.TryParse(textBox_Bol2.Text, out Bol))
+            if (int.TryParse(textBox_AddSick.Text, out AddSick) && DateTime.TryParse(textBox_AddDate.Text, out AddDate))
             {
-                var addQuery = $"insert into Boln (Служба, Больничные, Коронавирус, Уход, Дата) values ('{SL}', '{Bol}', '{Kor}', '{Uh}', '{Date}')";
+                var addQuery = $"insert into Boln (Service, Sick, Coronavirus, Care, Date) values ('{AddService}', '{AddSick}', '{AddCoronavirus}', '{AddCare}', '{AddDate}')";
 
                 var command = new SqlCommand(addQuery, dataBase.getConnection());
                 command.ExecuteNonQuery();
 
                 MessageBox.Show("Запись успешно создана!!", "Ок!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else
+            else 
             {
-                MessageBox.Show("Больничные должны иметь числовой формат!!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Больничные должны иметь числовой формат, дата должна иметь формат вида: 22.22.22 !!!!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
             dataBase.closeConnection();

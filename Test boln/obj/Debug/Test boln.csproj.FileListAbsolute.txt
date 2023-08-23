@@ -9,3 +9,17 @@ C:\Users\sasha\source\repos\Test boln\Test boln\obj\Debug\Test boln.csproj.CoreC
 C:\Users\sasha\source\repos\Test boln\Test boln\obj\Debug\Test boln.exe
 C:\Users\sasha\source\repos\Test boln\Test boln\obj\Debug\Test boln.pdb
 C:\Users\sasha\source\repos\Test boln\Test boln\obj\Debug\Test_boln.Add_Form.resources
+C:\Users\sasha\source\repos\Test boln 2\Test boln\bin\Debug\Test boln.exe.config
+C:\Users\sasha\source\repos\Test boln 2\Test boln\bin\Debug\Test boln.exe
+C:\Users\sasha\source\repos\Test boln 2\Test boln\bin\Debug\Test boln.pdb
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test boln.csprojAssemblyReference.cache
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test_boln.Add_Form.resources
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test_boln.Properties.Resources.resources
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test boln.csproj.GenerateResource.cache
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test boln.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test boln.exe
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test boln.pdb
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test_boln.Log_in.resources
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test_boln.Form1.resources
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test_boln.sign_up.resources
+C:\Users\sasha\source\repos\Test boln 2\Test boln\obj\Debug\Test_boln.Admin_Panel.resources

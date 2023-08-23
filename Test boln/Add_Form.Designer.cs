@@ -28,142 +28,142 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox_Date2 = new System.Windows.Forms.TextBox();
-            this.textBox_Uh2 = new System.Windows.Forms.TextBox();
-            this.textBox_SL2 = new System.Windows.Forms.TextBox();
-            this.textBox_Kor2 = new System.Windows.Forms.TextBox();
-            this.textBox_Bol2 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.Save = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.textBox_AddDate = new System.Windows.Forms.TextBox();
+            this.textBox_AddСare = new System.Windows.Forms.TextBox();
+            this.textBox_AddService = new System.Windows.Forms.TextBox();
+            this.textBox_AddCoronavirus = new System.Windows.Forms.TextBox();
+            this.textBox_AddSick = new System.Windows.Forms.TextBox();
+            this.label_AddDate = new System.Windows.Forms.Label();
+            this.label_AddCare = new System.Windows.Forms.Label();
+            this.label_AddCoronavirus = new System.Windows.Forms.Label();
+            this.label_AddSick = new System.Windows.Forms.Label();
+            this.label_AddService = new System.Windows.Forms.Label();
+            this.Add_Save = new System.Windows.Forms.Button();
+            this.labelCreate_entry = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox_Date2
+            // textBox_AddDate
             // 
-            this.textBox_Date2.Location = new System.Drawing.Point(252, 270);
-            this.textBox_Date2.Name = "textBox_Date2";
-            this.textBox_Date2.Size = new System.Drawing.Size(297, 22);
-            this.textBox_Date2.TabIndex = 10;
+            this.textBox_AddDate.Location = new System.Drawing.Point(252, 270);
+            this.textBox_AddDate.Name = "textBox_AddDate";
+            this.textBox_AddDate.Size = new System.Drawing.Size(297, 22);
+            this.textBox_AddDate.TabIndex = 10;
             // 
-            // textBox_Uh2
+            // textBox_AddСare
             // 
-            this.textBox_Uh2.Location = new System.Drawing.Point(252, 242);
-            this.textBox_Uh2.Name = "textBox_Uh2";
-            this.textBox_Uh2.Size = new System.Drawing.Size(297, 22);
-            this.textBox_Uh2.TabIndex = 9;
+            this.textBox_AddСare.Location = new System.Drawing.Point(252, 242);
+            this.textBox_AddСare.Name = "textBox_AddСare";
+            this.textBox_AddСare.Size = new System.Drawing.Size(297, 22);
+            this.textBox_AddСare.TabIndex = 9;
             // 
-            // textBox_SL2
+            // textBox_AddService
             // 
-            this.textBox_SL2.Location = new System.Drawing.Point(252, 158);
-            this.textBox_SL2.Name = "textBox_SL2";
-            this.textBox_SL2.Size = new System.Drawing.Size(297, 22);
-            this.textBox_SL2.TabIndex = 8;
+            this.textBox_AddService.Location = new System.Drawing.Point(252, 158);
+            this.textBox_AddService.Name = "textBox_AddService";
+            this.textBox_AddService.Size = new System.Drawing.Size(297, 22);
+            this.textBox_AddService.TabIndex = 8;
             // 
-            // textBox_Kor2
+            // textBox_AddCoronavirus
             // 
-            this.textBox_Kor2.Location = new System.Drawing.Point(252, 214);
-            this.textBox_Kor2.Name = "textBox_Kor2";
-            this.textBox_Kor2.Size = new System.Drawing.Size(297, 22);
-            this.textBox_Kor2.TabIndex = 7;
+            this.textBox_AddCoronavirus.Location = new System.Drawing.Point(252, 214);
+            this.textBox_AddCoronavirus.Name = "textBox_AddCoronavirus";
+            this.textBox_AddCoronavirus.Size = new System.Drawing.Size(297, 22);
+            this.textBox_AddCoronavirus.TabIndex = 7;
             // 
-            // textBox_Bol2
+            // textBox_AddSick
             // 
-            this.textBox_Bol2.Location = new System.Drawing.Point(252, 186);
-            this.textBox_Bol2.Name = "textBox_Bol2";
-            this.textBox_Bol2.Size = new System.Drawing.Size(297, 22);
-            this.textBox_Bol2.TabIndex = 6;
+            this.textBox_AddSick.Location = new System.Drawing.Point(252, 186);
+            this.textBox_AddSick.Name = "textBox_AddSick";
+            this.textBox_AddSick.Size = new System.Drawing.Size(297, 22);
+            this.textBox_AddSick.TabIndex = 6;
             // 
-            // label7
+            // label_AddDate
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(85, 270);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 22);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Дата:";
+            this.label_AddDate.AutoSize = true;
+            this.label_AddDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_AddDate.Location = new System.Drawing.Point(85, 270);
+            this.label_AddDate.Name = "label_AddDate";
+            this.label_AddDate.Size = new System.Drawing.Size(56, 22);
+            this.label_AddDate.TabIndex = 16;
+            this.label_AddDate.Text = "Дата:";
             // 
-            // label6
+            // label_AddCare
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(85, 242);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 22);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Уход:";
+            this.label_AddCare.AutoSize = true;
+            this.label_AddCare.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_AddCare.Location = new System.Drawing.Point(85, 242);
+            this.label_AddCare.Name = "label_AddCare";
+            this.label_AddCare.Size = new System.Drawing.Size(55, 22);
+            this.label_AddCare.TabIndex = 15;
+            this.label_AddCare.Text = "Уход:";
             // 
-            // label5
+            // label_AddCoronavirus
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(85, 214);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 22);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Коронавирус:";
+            this.label_AddCoronavirus.AutoSize = true;
+            this.label_AddCoronavirus.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_AddCoronavirus.Location = new System.Drawing.Point(85, 214);
+            this.label_AddCoronavirus.Name = "label_AddCoronavirus";
+            this.label_AddCoronavirus.Size = new System.Drawing.Size(126, 22);
+            this.label_AddCoronavirus.TabIndex = 14;
+            this.label_AddCoronavirus.Text = "Коронавирус:";
             // 
-            // label4
+            // label_AddSick
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(85, 186);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 22);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Больничный:";
+            this.label_AddSick.AutoSize = true;
+            this.label_AddSick.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_AddSick.Location = new System.Drawing.Point(85, 186);
+            this.label_AddSick.Name = "label_AddSick";
+            this.label_AddSick.Size = new System.Drawing.Size(123, 22);
+            this.label_AddSick.TabIndex = 13;
+            this.label_AddSick.Text = "Больничный:";
             // 
-            // label3
+            // label_AddService
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(85, 158);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 22);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Служба:";
+            this.label_AddService.AutoSize = true;
+            this.label_AddService.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_AddService.Location = new System.Drawing.Point(85, 158);
+            this.label_AddService.Name = "label_AddService";
+            this.label_AddService.Size = new System.Drawing.Size(81, 22);
+            this.label_AddService.TabIndex = 12;
+            this.label_AddService.Text = "Служба:";
             // 
-            // Save
+            // Add_Save
             // 
-            this.Save.Location = new System.Drawing.Point(361, 359);
-            this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(141, 48);
-            this.Save.TabIndex = 17;
-            this.Save.Text = "Сохранить";
-            this.Save.UseVisualStyleBackColor = true;
-            this.Save.Click += new System.EventHandler(this.Save_Click);
+            this.Add_Save.Location = new System.Drawing.Point(361, 359);
+            this.Add_Save.Name = "Add_Save";
+            this.Add_Save.Size = new System.Drawing.Size(141, 48);
+            this.Add_Save.TabIndex = 17;
+            this.Add_Save.Text = "Сохранить";
+            this.Add_Save.UseVisualStyleBackColor = true;
+            this.Add_Save.Click += new System.EventHandler(this.Save_Click);
             // 
-            // label1
+            // labelCreate_entry
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(83, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 32);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Создание записи";
+            this.labelCreate_entry.AutoSize = true;
+            this.labelCreate_entry.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelCreate_entry.Location = new System.Drawing.Point(83, 73);
+            this.labelCreate_entry.Name = "labelCreate_entry";
+            this.labelCreate_entry.Size = new System.Drawing.Size(223, 32);
+            this.labelCreate_entry.TabIndex = 18;
+            this.labelCreate_entry.Text = "Создание записи";
             // 
             // Add_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 497);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.Save);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox_Date2);
-            this.Controls.Add(this.textBox_Uh2);
-            this.Controls.Add(this.textBox_SL2);
-            this.Controls.Add(this.textBox_Kor2);
-            this.Controls.Add(this.textBox_Bol2);
+            this.Controls.Add(this.labelCreate_entry);
+            this.Controls.Add(this.Add_Save);
+            this.Controls.Add(this.label_AddDate);
+            this.Controls.Add(this.label_AddCare);
+            this.Controls.Add(this.label_AddCoronavirus);
+            this.Controls.Add(this.label_AddSick);
+            this.Controls.Add(this.label_AddService);
+            this.Controls.Add(this.textBox_AddDate);
+            this.Controls.Add(this.textBox_AddСare);
+            this.Controls.Add(this.textBox_AddService);
+            this.Controls.Add(this.textBox_AddCoronavirus);
+            this.Controls.Add(this.textBox_AddSick);
             this.Name = "Add_Form";
             this.Text = "Add_Form";
             this.ResumeLayout(false);
@@ -173,17 +173,17 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox_Date2;
-        private System.Windows.Forms.TextBox textBox_Uh2;
-        private System.Windows.Forms.TextBox textBox_SL2;
-        private System.Windows.Forms.TextBox textBox_Kor2;
-        private System.Windows.Forms.TextBox textBox_Bol2;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button Save;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox_AddDate;
+        private System.Windows.Forms.TextBox textBox_AddСare;
+        private System.Windows.Forms.TextBox textBox_AddService;
+        private System.Windows.Forms.TextBox textBox_AddCoronavirus;
+        private System.Windows.Forms.TextBox textBox_AddSick;
+        private System.Windows.Forms.Label label_AddDate;
+        private System.Windows.Forms.Label label_AddCare;
+        private System.Windows.Forms.Label label_AddCoronavirus;
+        private System.Windows.Forms.Label label_AddSick;
+        private System.Windows.Forms.Label label_AddService;
+        private System.Windows.Forms.Button Add_Save;
+        private System.Windows.Forms.Label labelCreate_entry;
     }
 }
